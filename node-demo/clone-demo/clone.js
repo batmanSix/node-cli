@@ -32,6 +32,8 @@ function install(command) {
   });
 }
 
+// todo 拉去对应线上分支
+
 function runCommand(command) {
   console.log("执行命令：\n\t" + command);
   exec(
