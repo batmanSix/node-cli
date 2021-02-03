@@ -6,6 +6,6 @@ const log = content => console.log(chalk.green(content))
 module.exports = async name => { 
   // 打印欢迎画面 
   clear() 
-  const data = await figlet('KKB Welcome') 
+  const data = await figlet('AliKangk Welcome') 
   log(data) 
 }
